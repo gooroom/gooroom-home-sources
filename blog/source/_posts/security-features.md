@@ -63,5 +63,12 @@ _보안 관리 기술은 조직 내 사용자 단말들에 대한 중앙집중�
 * 관련 기사 1: [Biggest security threat? Your users](https://www.computerworld.com/article/2543940/networking/biggest-security-threat--your-users.html)
 * 관련 기사 2: [End users struggle to identify security threats and put enterprises at risk](https://betanews.com/2016/09/02/end-user-identify-threats/)
 
-원격 검증 기술
+원격검증 기술
 ---------------
+_원격검증 기술은 보안관리자가 조직 내 사용자 단말들의 신뢰부팅 여부를 일목요연하게 판단하도록 지원합니다._  
+
+사용자 단말이 정상적으로 부팅하지 않을 경우, 이후의 모든 보안솔루션들이 무력화될 수 있습니다. 2016년 발생한 인사혁신처 해킹사고는 이러한 사례에 해당합니다.
+
+구름 프레임워크는 보안관리자가 조직 내 단말들의 신뢰부팅 여부를 중앙집중적 모니터링하고, 이후 네트워크 접속제한 등 추가제약을 가할 수 있도록 원격검증을 지원합니다. 원격검증을 위해 구름플랫폼 v1.0은 TPM v2.0 및 Intel의 [Open CIT](https://01.org/opencit) 연동을 지원합니다.
+
+* 구름플랫폼 Beta는 TPM v1.2 및 Intel [OAT](https://01.org/openattestation) 연동을 지원했으나, 더 이상 기술을 업데이트하지 않습니다. 
