@@ -19,8 +19,12 @@ tags:
 
 Shadow-Box는 구름플랫폼이 시작할 때 로드되어 OS 내부 자료구조의 무결성 훼손 여부를 감시하고 차단합니다. Shadow-Box는 하이퍼바이저모드로 동작하며, 시스템 권한 악성코드들로부터 안전하게 시스템을 보호합니다.
 
+Shadow-Box의 기술적 세부사항 및 우수성은 다음 발표자료들을 통해 확인하실 수 있습니다.
+* Black Hat Asia 2017: [Myth and Truth About Hypervisor-Based Kernel Protector: The Reason Why You Need Shadow-Box](https://www.blackhat.com/asia-17/briefings/schedule/#myth-and-truth-about-hypervisor-based-kernel-protector-the-reason-why-you-need-shadow-box-5283)
+* HitBSecConf 2017: [Shadow-Box: The Practical and Omnipotent Sandbox](https://conference.hitb.org/hitbsecconf2017ams/sessions/shadowbox-the-practical-and-omnipotent-sandbox/)
+
 주의
 ---------------
 경량 하이퍼바이저 사용을 위해 다음과 같은 내용을 확인하십시오.
 * CPU의 VT 지원 여부: 경량하이퍼바이저는 현재 Intel의 VT기술을 활용하여 구현하고 있습니다. 설치할 단말의 CPU가 VT기술을 지원하는지 확인할 필요가 있습니다 ([Does My Processor Support Intel® Virtualization Technology?](https://www.intel.com/content/www/us/en/support/articles/000005486/processors.html))
-* 다른 가상화 소프트웨어 사용 계획: 경량 하이퍼바이저는 시스템 실행시간에 Intel VT기술을 독점 사용하며, 중첩 가상화 방식을 지원하지 않습니다. 따라서 VMware, VirtualBox, KVM 등 하드웨어의 가상화 가속 기능을 사용하는 소프트웨어와 함께 사용할 수 없습니다. 이진변환 기술을 사용하는 qemu와의 병용은 시험된 바 없습니다. 
+* 다른 가상화 소프트웨어 사용 계획: 경량 하이퍼바이저는 시스템 실행시간에 Intel VT기술을 독점 사용하며, 중첩 가상화 방식을 지원하지 않습니다. 따라서 VMware, VirtualBox, KVM 등 하드웨어의 가상화 가속 기능을 사용하는 소프트웨어와 함께 사용할 수 없습니다. 이진변환 기술을 사용하는 qemu와의 병용은 시험된 바 없습니다.

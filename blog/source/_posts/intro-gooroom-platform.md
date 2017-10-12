@@ -1,6 +1,6 @@
 ---
 title: intro-gooroom-platform
-date:
+date: 2999-10-31 00:00:00
 tags:
 layout: post
 permalink: intro-gooroom-platform
