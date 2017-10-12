@@ -23,6 +23,11 @@ Shadow-Box의 기술적 세부사항 및 우수성은 다음 발표자료들을 
 * Black Hat Asia 2017: [Myth and Truth About Hypervisor-Based Kernel Protector: The Reason Why You Need Shadow-Box](https://www.blackhat.com/asia-17/briefings/schedule/#myth-and-truth-about-hypervisor-based-kernel-protector-the-reason-why-you-need-shadow-box-5283)
 * HitBSecConf 2017: [Shadow-Box: The Practical and Omnipotent Sandbox](https://conference.hitb.org/hitbsecconf2017ams/sessions/shadowbox-the-practical-and-omnipotent-sandbox/)
 
+Shadow-Box 설치 및 실행
+---------------
+Shadow-Box는 구름매니저를 통해 설치하고 실행할 수 있습니다.
+자세한 내용은 앞으로 업데이트 할 예정입니다. 
+
 주의
 ---------------
 경량 하이퍼바이저 사용을 위해 다음과 같은 내용을 확인하십시오.
